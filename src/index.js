@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import CardList from './CardList';
+import tracks from './trackList';
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <CardList tracks={tracks} />
   </React.StrictMode>,
   document.getElementById('root')
 );
